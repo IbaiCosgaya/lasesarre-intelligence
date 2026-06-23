@@ -1,0 +1,15 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Datos (Ignoramos los datos locales para que no pesen en GitHub)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Caché de Python y Streamlit
+__pycache__/
+*.pyc
+.streamlit/
